@@ -6,8 +6,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: rgb(0,82,142);
-  background: linear-gradient(15deg, rgba(0,82,142,1) 0%, rgba(0,95,163,1) 10%, rgba(3,112,190,1) 100%);
+  background: rgb(35,35,36);
+background: linear-gradient(20deg, rgba(35,35,36,1) 0%, rgba(67,67,69,1) 100%);
 }
 textarea, input, button { outline: none; }
 
@@ -17,8 +17,7 @@ button {
   border: 1px solid #333;
 }
 button:hover {
-  border-color: #3ae0b1;
-  color: #3ae0b1;
+  
   -webkit-transition: color .3s ease, border-color .3s ease; /* Safari */
   transition: color .3s ease, border-color .3s ease;
 }

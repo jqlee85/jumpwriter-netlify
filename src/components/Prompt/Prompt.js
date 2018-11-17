@@ -22,7 +22,7 @@ class Prompt extends Component {
             <span>TEXT</span>
           </button>
           <button className="prompt-type-button prompt-image-button jo-chasing-icon jo-icon-2" onClick={this.props.getImagePrompt}>
-            <CameraIcon iconWidth="30px" color="rgba(255,255,255,1)" hoverColor="#005a99" />
+            <CameraIcon iconWidth="30px" color="#ffffff" hoverColor="#005a99" />
           </button>
         </div>
       }

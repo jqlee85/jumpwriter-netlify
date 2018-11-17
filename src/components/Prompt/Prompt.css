@@ -16,8 +16,9 @@
   align-items: center;
   justify-content: center;
   color: #fff;
-  border: 1px solid #fff;
-  border-color: rgba(255,255,255,1);
+  
+  background: rgb(230,69,96);
+  background: linear-gradient(20deg, rgba(230,69,96,1) 0%, rgba(237,147,65,1) 100%);
   border-radius: 31px;
   width: 60px;
   height: 60px;
@@ -28,8 +29,7 @@
   transition: border-color .3s ease;
 }
 .prompt-type-button:hover {
-  background: #004274;
-  border-color: #004274;
+  background: linear-gradient(20deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
 }
 .prompt-type-button:hover span {
   color: #fafafa;
