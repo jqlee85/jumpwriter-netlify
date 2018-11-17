@@ -23,14 +23,14 @@ button#nav-icon:hover {
   cursor: pointer;
 }
 #nav-icon:hover span {
-  box-shadow: -1px 1px 5px rgba(0,0,0,.3);
+  box-shadow: -1px 1px 5px rgba(255,255,255,.3);
 }
 #nav-icon span {
   display: block;
   position: absolute;
-  height: 1px;
+  height: 2px;
   width: 40px;
-  background: rgba(0,0,0,.8);
+  background: rgba(255,255,255,.95);
   opacity: 1;
   left: 0;
   -webkit-transform: rotate(0deg);

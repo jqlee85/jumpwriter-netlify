@@ -13,17 +13,13 @@
   height: auto;
   min-height: 300px;
   min-height: 60vh;
-  background: #e7e7e5; /* Old browsers */
-  background: -moz-linear-gradient(top, #e7e7e5 0%, #e9e8e6 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #e7e7e5 0%,#e9e8e6 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #e7e7e5 0%,#e9e8e6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e7e7e5', endColorstr='#e9e8e6',GradientType=0 ); /* IE6-9 */
-  border-radius: 2px;
+  background: rgba(0,0,0,.3);
+  border-radius: 8px;
   border: none;
-  box-shadow: -20px 20px 80px rgba(0,0,0,.1);
+  box-shadow: -20px 20px 80px rgba(0,0,0,.5);
   margin: 20px auto 40px;
   padding: 40px 30px 40px 35px;
-  color: rgba(0,0,0,.7);
+  color: rgba(255,255,255,.98);
   font-size: 1.5em;
   font-family: 'Cormorant Garamond', serif;
   font-family: 'Quicksand', sans-serif;

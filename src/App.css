@@ -1,14 +1,13 @@
 body {
   min-height: 100%;
   min-height: 100vh;
+  height: auto;
+  color: #fff;
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #f9f9f9; /* Old browsers */
-  background: -moz-linear-gradient(top, #f9f9f9 0%, #f4f4f4 100%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #f9f9f9 0%,#f4f4f4 100%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #f9f9f9 0%,#f4f4f4 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f4f4f4',GradientType=0 ); /* IE6-9 */
+  background: rgb(0,82,142);
+  background: linear-gradient(15deg, rgba(0,82,142,1) 0%, rgba(0,95,163,1) 10%, rgba(3,112,190,1) 100%);
 }
 textarea, input, button { outline: none; }
 
