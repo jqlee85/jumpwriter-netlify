@@ -38,3 +38,7 @@ button:active {
 #app {
   position: relative;
 }
+.main {
+  position: relative;
+  z-index: 10;
+}
