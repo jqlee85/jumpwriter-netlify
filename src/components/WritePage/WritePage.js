@@ -22,7 +22,7 @@ class WritePage extends Component {
   render() {
     return <div className="write-page">
       <textarea className="write-textarea" onChange={this.onChange} value={this.state.textContent} />
-      <button className="save-prompt" onClick={this.saveWriting}>Save</button>
+      {/* <button className="save-prompt" onClick={this.saveWriting}>Save</button> */}
   </div>
   }
 }
