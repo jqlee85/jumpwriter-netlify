@@ -1,0 +1,51 @@
+/* Prompts */
+.prompt {
+  max-width: 100%;
+  margin: 0px auto 0px;
+}
+.prompt-types {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  min-width: 200px;
+}
+.prompt-type-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #333;
+  border-color: rgba(0,0,0,.7);
+  border-radius: 31px;
+  width: 60px;
+  height: 60px;
+  padding: 0;
+  margin: .5em;
+  cursor: pointer;
+  -webkit-transition: border-color .3s ease; /* Safari */
+  transition: border-color .3s ease;
+}
+.prompt-type-button:hover {
+  background: rgba(32,32,32,1);
+  border-color: rgb(32,32,32);
+}
+.prompt-type-button:hover span {
+  color: #fafafa;
+}
+.prompt-type-button span {
+  display: block;
+  font-size: 18px;
+  font-weight: lighter;
+  -webkit-transition: color .3s ease; /* Safari */
+  transition: color .3s ease;
+  margin: auto;
+}
+.prompt-type-button svg {
+  display: block;
+  margin: auto;
+}
+.prompt-image-button:hover svg path {
+  fill: #fafafa;
+}
+

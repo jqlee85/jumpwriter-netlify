@@ -1,0 +1,32 @@
+/* Header */
+
+#header {
+  display: block;
+  box-sizing: border-box;
+  background: none;
+  position: relative;
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  color: rgba(0,0,0,.7);
+  z-index: 20;
+}
+#header a.site-title {
+  position: relative;
+  float: right;
+  margin-top: 3px;
+  margin-right: 10px;
+}
+#header a.site-title h1 {
+  float: right;
+  display: inline;
+  font-family: 'Abril Fatface';
+  color: rgba(0,0,0,.7);
+  font-weight: lighter;
+  margin: 0;
+  -webkit-transition: color .3s ease; /* Safari */
+  transition: color .3s ease;
+}
+#header a.site-title:hover h1 {
+  color: rgba(0,0,0,.9);
+}
