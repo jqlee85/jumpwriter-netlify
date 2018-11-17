@@ -9,7 +9,7 @@
   height: 80px;
   padding: 10px;
   color: rgba(255,255,255,.7);
-  z-index: 20;
+  z-index: 30;
 }
 #header a.site-title {
   position: relative;
@@ -20,7 +20,7 @@
 #header a.site-title h1 {
   float: right;
   display: inline;
-  font-family: 'Abril Fatface';
+  font-family: ;
   color: rgba(255,255,255,.7);
   font-weight: lighter;
   margin: 0;

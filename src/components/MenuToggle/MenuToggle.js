@@ -25,9 +25,7 @@ const mapStateToProps = (state) => {
 }
 const mapDispatchToProps = (dispatch) => {
   return {
-    toggleNav: () => {
-      dispatch(toggleNav());
-    }
+    
   }
 }
 export default connect(mapStateToProps,mapDispatchToProps)(MenuToggle);

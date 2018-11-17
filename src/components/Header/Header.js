@@ -10,7 +10,7 @@ class Header extends Component {
 
   render(){
     return <header id="header">
-      <MenuToggle menuToggled={this.props.menuToggled} />
+      <MenuToggle menuToggled={this.props.menuToggled} toggleNav={this.props.toggleNav} />
       <Link className="site-title" to='/'><h1>JumpWriter</h1></Link>
     </header>
   }

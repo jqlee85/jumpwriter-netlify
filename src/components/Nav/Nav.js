@@ -8,7 +8,9 @@ class Nav extends Component {
 
   render() {
     let theClasses = 'main-nav';
-    if (this.props.menuToggled) theClasses += ' toggled';
+    if (this.props.navToggled) theClasses += ' toggled';
+    if (this.props.navFront) theClasses += ' front';
+    if (this.props.navInitialized) theClasses += ' initialized';
     return <nav id="main-nav" className={theClasses}>
         
         <ul className="menu">
