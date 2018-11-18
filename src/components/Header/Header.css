@@ -21,7 +21,8 @@
   float: right;
   display: inline;
   color: rgba(255,255,255,.7);
-  font-weight: lighter;
+  font-family: 'Geomanist', sans-serif;
+  font-weight: 500;
   margin: 0;
   -webkit-transition: color .3s ease; /* Safari */
   transition: color .3s ease;

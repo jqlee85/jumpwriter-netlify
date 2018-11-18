@@ -4,7 +4,7 @@
   top: 0;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   box-sizing: border-box;
   left: 0%;
   z-index: 0;
@@ -70,12 +70,13 @@ background: linear-gradient(20deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
 .main-nav ul {
   list-style-type: none;
   text-align: left;
-  margin: auto;
   padding: 0;
 }
 .main-nav ul li {
-  font-size: 3em;
-  font-family: 'Abril Fatface', sans-serif;
+  font-size: 5em;
+  font-family: 'Geomanist', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 .main-nav ul li a {
   font-weight: bold;
@@ -90,9 +91,16 @@ background: linear-gradient(20deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
   #main-nav {
     width: 45%;
   }
+  .main-nav ul li {
+    font-size: 4em;
+  }
 }
 @media screen and (max-width: 600px) {
   #main-nav {
     width: 100%;
+    justify-content: center;
+  }
+  .main-nav ul li {
+    font-size: 3em;
   }
 }
