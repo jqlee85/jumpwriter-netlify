@@ -73,7 +73,7 @@ background: linear-gradient(20deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%
   padding: 0;
 }
 .main-nav ul li {
-  font-size: 5em;
+  font-size: 3em;
   font-family: 'Geomanist', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
