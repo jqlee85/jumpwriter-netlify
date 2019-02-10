@@ -8,15 +8,16 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  height: 200px;
-  min-width: 200px;
+  height: 267px;
+  width: 267px;
+  margin: auto;
 }
+
 .prompt-type-button {
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
-  
   background: linear-gradient(20deg, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   border-radius: 31px;
   width: 60px;

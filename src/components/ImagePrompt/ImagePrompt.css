@@ -1,13 +1,13 @@
 /* Image Prompts */
 .image-prompt-wrapper {
   box-sizing: border-box;
-  block-size: 200px;
+  block-size: 267px;
 }
 .prompt-image {
   position: relative;
   display: inline-block;
   width: auto;
-  height: 200px;
+  height: 267px;
   border-radius: 1px;
   background: none;
   box-shadow: -10px 10px 40px rgba(50,50,50,.5);
