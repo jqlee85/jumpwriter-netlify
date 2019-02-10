@@ -9,8 +9,8 @@
   width: auto;
   height: 200px;
   border-radius: 1px;
-  background: #efefef;
-  box-shadow: -10px 10px 40px rgba(50,50,50,.2);
+  background: none;
+  box-shadow: -10px 10px 40px rgba(50,50,50,.5);
   overflow: hidden;
 }
 .prompt-image img {
@@ -20,6 +20,8 @@
   height: auto;
   max-height: 100%;
   max-width: 100%;
+  overflow: hidden;
+  border-radius: 6px;
 }
 .prompt-image-credit {
   position: absolute;
